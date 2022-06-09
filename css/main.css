@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GRADIENTES */
+
+
+body{
+    background: linear-gradient(to left,rgba(129, 32, 153, 0.685),rgba(243, 60, 219, 0.377));
+    text-align: center;
+}
+
+
+.caja{
+    background-color: tomato;
+    width: 250px;
+    height: 250px;
+    margin: 2rem;
+    border:3px solid black;
+    transition: 3s;
+
+    /* transform:translate(30px, 50px) 
+    transform:rotate(10deg)
+    transform: scale(1);*/
+}
+
+/* PSEUDOCLASE HOVER */
+
+.caja:hover{
+    border-radius: 150px; 
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.644);
+    background-color: rgb(216, 77, 53);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2s; 
+    transform: rotate(720deg);
+}
